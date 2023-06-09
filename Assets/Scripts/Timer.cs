@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 public class Timer : MonoBehaviour
 {
+    
     [Header("Component")]
     public TextMeshProUGUI timerText;
 
@@ -14,12 +15,6 @@ public class Timer : MonoBehaviour
     [Header("Limit Settings")]
     public bool hasLimit;
     public float timerLimit;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -37,8 +32,11 @@ public class Timer : MonoBehaviour
         setTimerText();
     }
 
-    private void setTimerText()
+    public void setTimerText()
     {
         timerText.text = currentTime.ToString("0.00");
     }
+
+
+
 }

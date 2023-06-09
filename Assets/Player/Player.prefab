@@ -188,8 +188,8 @@ MonoBehaviour:
     m_Bits: 128
   counterMovement: 0.08
   maxSlopeAngle: 45
-  slideForce: 400
-  slideCounterMovement: 0.2
+  slideForce: 700
+  slideCounterMovement: 0
   jumpForce: 300
 --- !u!136 &5509135068202634672
 CapsuleCollider:

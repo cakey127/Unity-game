@@ -29,7 +29,7 @@ public class RocketExplosion : MonoBehaviour
             if(hitcol.GetComponent<Rigidbody>() != null)
             {
                 hitcol.GetComponent<Rigidbody>().isKinematic = false;
-                hitcol.GetComponent<Rigidbody>().AddExplosionForce(explosionForce, explosionPoint, blastRadius, 0.5f, ForceMode.VelocityChange);
+                hitcol.GetComponent<Rigidbody>().AddExplosionForce(explosionForce, explosionPoint, blastRadius, 0.2f, ForceMode.VelocityChange);
             }
         }
     }

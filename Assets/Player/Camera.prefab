@@ -4420,7 +4420,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5714769724096011972}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!114 &5714769724096011994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6202,7 +6202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RocketPrefab: {fileID: 5808482719451934692, guid: 8ffa15d571159c543ad1c1e02829a175,
     type: 3}
-  propulsionForce: 20
+  propulsionForce: 40
   fireDelay: 0.8
 --- !u!1 &5714769724877168883
 GameObject:
@@ -6755,7 +6755,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RocketPrefab: {fileID: 5808482719451934692, guid: 23349f335ffa3604595eb0235a783478,
     type: 3}
-  propulsionForce: 20
+  propulsionForce: 40
   fireDelay: 0.8
 --- !u!1 &5714769725248786800
 GameObject:
